@@ -2,32 +2,78 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Index</title>
+    <title>World</title>
 	  <link rel="stylesheet" type="text/css" href="style/style.css">
 	  <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="icon" type="image/png" href="images/imaaag.png" sizes="32x32"/>
   </head>
   <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 3%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #green;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: #00FF00;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <img src="bunny.gif" alt="" class="image" sizes="10x10">
+  <div class="overlay">
+    <div class="text">Salut!</div>
+  </div>
+</div>
+
     <div class="container">
     </div>
     <div class="document">
   </div>
     <div class="wrapper">
-      <div class="intro">
-        <div class="item">
-       </div>
-        <div class="item">
-          <a href="mailto:sophiaaaaa_sol@mail.ru">ss</a>
-        </div>
         <div>
         </div>
         <div>
         </div>
         <div>
       <div class="projects">
-
-      </div>
-
+        <div>
+          <a href="contacts.html"><img src="sonic x.jpg" width="82" height="86" title="Contacts" alt=""></a>
+          </div>
   <p><a href="hypergraphics.html" style="background-color:#1194f4" color:"black">Hypergraphics</a></p>
   <p><a href="callendar.html" style="background-color:#00FFFF" color:"black">Callendar</a></p>
   <p><a href="interview.html" style="background-color:#F7FE2E" color:"black">Interview</a></p>
@@ -36,9 +82,9 @@
   <p><a href="asyliumoffear.html" style="background-color:#CEF6D8" color:"black">Asylium of fear</a></p>
   <p><a href="jellyfish.html" style="background-color:#DEECB8" color:"black">Jellyfish</a></p>
   <p><a href="talktalk.html" style="background-color:#76cf47" color:"black">Talk Talk</a></p>
-
+  <p><a href="greygardens.html" style="background-color:#5FA2A9" color:"black">Grey Gradens</a></p>
+  <p><a href="https://twitter.com/earth_sat_bot" style="background-color:#FF00FF" color:"black">Hipsterbait</a></p>
 </div>
-      </div>
       </div>
     </div>
   </body>
